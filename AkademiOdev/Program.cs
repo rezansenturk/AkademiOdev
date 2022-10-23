@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace AkademiOdev
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
             for (int i = 1; i < 500; i++)
             {
                 if (i % 2 == 0)
